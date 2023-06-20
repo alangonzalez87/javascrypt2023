@@ -27,7 +27,6 @@ body {
   box-shadow: 0 0 30px rgb(187, 130, 130);
   background-color: #fff;
 }
-
 .calculator #display {
   color: #0a1e23;
   margin: 0 10px;
@@ -40,55 +39,44 @@ body {
   margin-bottom: 20px;
   font-weight: 800;
 }
-
 .calculator #equal {
   height: 130px;
 }
-
 .calculator button#clear {
   background-color: #ffd5d8;
   color: #fc4552;
 }
-
 .calculator .btn-number {
   background-color: #c3eaff;
   color: #000000;
 }
-
 .calculator .btn-operator {
   background-color: #ffd0fb;
   color: #f967f3;
 }
-
 .calculator .btn-equal {
   background-color: #05a47f;
   color: #000;
 }
-
 .calculator.dark {
   background-color: #000;
 }
-
 .calculator.dark #display {
   color: #f8fafb;
 }
-
 .calculator.dark #clear {
   background-color: #4C35AA;
   color: white;
 }
-
 .calculator.dark .btn-number {
   background-color: #05a47f;
   color: black;
   font-weight: 600;
 }
-
 .calculator.dark .btn-operator {
   background-color: #c3eaff;
   color: #f967f3;
 }
-
 .calculator.dark .btn-equal {
   background-color: orangered;
   color: #ffffff;
@@ -102,7 +90,6 @@ body {
   cursor: pointer;
   z-index: 1;
 }
-
 .theme-togler::before {
   content: "";
   position: absolute;
@@ -118,7 +105,6 @@ body {
 .theme-togler .active {
   color: #333;
 }
-
 .theme-togler .active::before {
   background-color: #fff;
 }
@@ -133,9 +119,6 @@ button {
   cursor: pointer;
   transition: all 0.2s ease;
 }
-
 button:hover {
   transform: scale(1.1);
-} 
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
